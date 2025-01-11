@@ -39,10 +39,7 @@ CREATE TABLE `masyarakat` (
 -- Dumping data untuk tabel `masyarakat`
 --
 
-INSERT INTO `masyarakat` (`nik`, `nama`, `username`, `password`, `telp`) VALUES
-('123', 'tapis', 'tapis', '123', '464363'),
-('12345678', 'yonas', 'yonas', '123', '09876543212'),
-('6171030106030013', 'Nur Hafizh', 'hafizh', 'hapislawar', '089691685085');
+
 
 -- --------------------------------------------------------
 
@@ -63,17 +60,7 @@ CREATE TABLE `pengaduan` (
 -- Dumping data untuk tabel `pengaduan`
 --
 
-INSERT INTO `pengaduan` (`id_pengaduan`, `tgl_pengaduan`, `nik`, `isi_laporan`, `foto`, `status`) VALUES
-(1, '2024-10-28', '', 'jgjguk', 'fotomerah.jpg', '0'),
-(2, '2024-10-31', '6171030106030013', 'guygii', 'eskupi.png', 'selesai'),
-(3, '2024-11-03', '6171030106030013', 'tabrani', 'Gambar WhatsApp 2023-03-27 pukul 21.05.19.jpg', 'selesai'),
-(4, '2024-11-03', '6171030106030013', 'iuioptyiop', 'Gambar WhatsApp 2024-09-07 pukul 18.33.11_6e806608.jpg', 'selesai'),
-(5, '2024-11-03', '6171030106030013', 'hehe', 'wallpapersden.com_cool-4k-pattern_3840x2160.jpg', 'proses'),
-(6, '2024-11-11', '123', 'rgrewg', '1103-Cover.jpg', '0'),
-(8, '2024-11-18', '6171030106030013', 'hehehe', '2e1c7007ded875ce4a43835676e97cbd.jpg', '0'),
-(9, '2024-11-18', '12345678', 'parit tengkorak', 'fotomerah.jpg', 'selesai'),
-(10, '2024-11-18', '12345678', 'jalana blki', 'fotomerah.jpg', 'selesai'),
-(11, '2024-11-23', '123', 'skrng', 'Cuplikan layar 2023-09-26 193806.png', '0');
+
 
 -- --------------------------------------------------------
 
@@ -94,10 +81,7 @@ CREATE TABLE `petugas` (
 -- Dumping data untuk tabel `petugas`
 --
 
-INSERT INTO `petugas` (`id_petugas`, `nama_petugas`, `username`, `password`, `telp`, `level`) VALUES
-(1, 'admin', 'admin', 'admin123', '0867562', 'admin'),
-(2, 'petugas', 'petugas', 'petugas123', '083423', 'petugas'),
-(15, 'admin2', 'adminkedua', '123', '23434', 'admin');
+
 
 -- --------------------------------------------------------
 
@@ -118,12 +102,7 @@ CREATE TABLE `tanggapan` (
 -- Dumping data untuk tabel `tanggapan`
 --
 
-INSERT INTO `tanggapan` (`id_tanggapan`, `id_pengaduan`, `tgl_tanggapan`, `tanggapan`, `foto_tgp`, `id_petugas`) VALUES
-(1, 2, '0000-00-00', 'referg', '', 1),
-(2, 3, '0000-00-00', 'terima kasih', '', 1),
-(3, 4, '2024-11-03', 'tq', 'IMG-20240528-WA0016.jpg', 15),
-(4, 9, '2024-11-18', 'teriamabsahdgu', 'Gambar WhatsApp 2023-12-14 pukul 14.56.58_fec01a4d.jpg', 1),
-(5, 10, '2024-11-18', 'terimahakndljhad', '2e1c7007ded875ce4a43835676e97cbd.jpg', 1);
+
 
 --
 -- Indexes for dumped tables
